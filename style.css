@@ -1,0 +1,219 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+body{
+	background-color: #eee;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+header{
+	margin-bottom: 50px;
+}
+
+nav{
+	min-height: 100px;
+}
+hr{
+	border: 3px solid #f1c40f;
+	width: 30%;
+	position: relative;
+	left: 30%;
+}
+.logo-header{
+	font-weight: bold;
+	font-size: 36px;
+}
+.logo-header:hover{
+	transform: scale(1.05);
+	color: black;
+}
+ul li{
+	list-style: none;
+	font-size: 20px;
+	font-weight: 400;
+	margin-left: 30px;
+	color: #666;
+}
+
+ul li a:hover {
+color: black;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+form label{
+	font-weight: bold;
+	font-size: 28px;
+	display: block;
+	text-align: center;
+}
+form > input{
+	width: 45%;
+	height: 44px;
+	padding: 8px;
+}
+button{
+	border: none;
+	background-color: #f1c40f;
+	font-weight: bolder;
+	font-size: 20px;
+	border-radius: 4px;
+	padding: 8px 10px;
+}
+button:hover{
+	transform: scale(1.05);
+}
+.service-icon{
+	color: #f1c40f;
+	font-size: 90px;
+	margin-right: 150px;
+}
+.qualities{
+	display: flex;
+	margin-top: 80px;
+	justify-content: space-between;
+	border-bottom: 1px solid #ddd;
+}
+.services-header{
+	font-weight: bold;
+	color: black;
+}
+.service-description{
+	text-align: left;
+}
+
+.price-section{
+	display: flex;
+	flex-direction: row;
+}
+.price-div{
+border-radius: 4px;
+border:solid 1px #666;
+width: 33%;
+padding-bottom: 30px;
+}
+
+.my-margin{
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+
+.price-header{
+	background-color: #ddd;
+	font-weight: bold;
+}
+.price{
+	font-weight: bolder;
+
+}
+.price-select{
+	background-color: #f1c40f;
+	font-size: 20px;
+	border-radius: 4px; 
+	padding: 8px 16px;
+	margin-top: 30px;
+
+}
+.price-select:hover{
+	transform: scale(1.05);
+}
+
+footer{
+	background-color: #ddd;
+	font-size: 20px;
+	padding: 30px;
+	min-height: 100px;
+}
+footer > div>  p{
+	display: inline;
+	margin-left: 30px;
+}
+footer > div{
+	float: right;
+	clear: both;
+
+}
+blockquote{
+	font-weight: bold;
+}
+
+
+
+/*media queries*/
+
+@media(max-width: 750px){
+	nav{
+		display: flex;
+		flex-direction: column;
+	} 
+	.logo{
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+
+	form{
+		display: flex;
+		flex-direction: column;
+	}
+	form label{
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	text-align: center;
+}
+
+form > input{
+	width: 70%;
+	height: 44px;
+	padding: 8px;
+	}
+
+	button{
+padding: 8px  16px;
+}
+.service-icon{
+	display: none;
+}
+.services-header{
+	 text-align: center;
+}
+
+
+
+
+.price-section{
+	display: flex;
+	flex-direction: column;
+}
+.price-div{
+border-radius: 4px;
+border:solid 1px #666;
+width: 100%;
+padding-bottom: 30px;
+margin-bottom: 50px;
+}
+
+
+
+
+	footer > div{
+float: none;
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+	}
+
+	blockquote{
+		margin-top: 20px;
+	}
+	}
